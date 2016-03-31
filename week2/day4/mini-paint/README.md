@@ -57,9 +57,9 @@ Great, now we can create beautiful works of art. Black and white art, but art no
     $(this).addClass('white');
   })
 
-  $('.box').on('dblclick', function() {
-    $(this).removeClass('white');
-  })
+      $('.box').on('dblclick', function() {
+        $(this).removeClass('white');
+      })
 ```
 
 ## Step 3 - Reset Button

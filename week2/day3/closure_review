@@ -1,0 +1,15 @@
+function colorFactoryFactory(colorName) {
+
+  function paintCanMaker() {
+    console.log("Here is a " + colorName + " factory!");
+  }
+  return paintCanMaker;
+}
+
+var redCanMaker = colorFactoryFactory("red");
+var blueCanMaker = colorFactoryFactory("blue");
+var greenCanMaker = colorFactoryFactory("green");
+
+blueCanMaker();
+redCanMaker();
+greenCanMaker();
