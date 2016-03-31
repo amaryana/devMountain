@@ -1,0 +1,24 @@
+.left {
+  width: 33%;
+  float: left;
+  background: #ADD8E6;
+  height: 100vh;
+}
+.middle {
+  width: 33%;
+  float:left;
+  background: #00E5EE;
+  height: 100vh;
+}
+.right {
+  width: 33%;
+  float: left;
+  background: #98FB98;
+  height: 100vh;
+  position: relative;
+}
+img {
+  float: right;
+  position: absolute;
+  bottom: 0;
+}

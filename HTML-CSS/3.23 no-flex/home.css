@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+.home-page-top-main {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background: url('img/headphones-bg.jpg') center no-repeat;
+    background-size: cover;
+}
+.menu {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    background: #000;
+}
+.home-page-content-top {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 44px;
+    position: absolute;
+    top: 94px;
+    left: 30px;
+}
+.home-top-button {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background: #000;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+.home-top-button a {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+.product {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+.product img {
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+.home-top {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  background-color: lightgray;
+}
+.product-card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.product {
+  width: 300px;
+  height: 400px;
+  background: lightblue;
+}

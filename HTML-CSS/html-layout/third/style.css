@@ -1,0 +1,66 @@
+.header {
+  width: 100%;
+  float: left;
+  background: #ccc;
+  height: 150px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  float: left;
+}
+
+.copy {
+  width: 100%;
+  float: left;
+  background: white;
+}
+p {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.blue {
+  width: 100%;
+  float: left;
+  background: blue;
+  height: 100px;
+}
+.first {
+  width: 100%;
+  float: left;
+  background: #ADD8E6;
+  height: 100px;
+}
+.second {
+  width: 100%;
+  float:left;
+  background: #00E5EE;
+  height: 100px;
+}
+.third {
+  width: 100%;
+  float: left;
+  background: #98FB98;
+  height: 100px;
+  position: relative;
+}
+.fourth {
+  width: 100%;
+  float: left;
+  background: yellow;
+  height: 100px;
+  position: relative;
+}
+img {
+  float: right;
+  position: absolute;
+  bottom: 0;
+}

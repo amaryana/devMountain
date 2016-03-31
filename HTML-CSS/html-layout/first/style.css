@@ -1,0 +1,34 @@
+.main-header {
+  width: 100%;
+  height:200px;
+  background: black;
+}
+.left {
+  width: 10%;
+  float: left;
+  background: gray;
+  height: 100%;
+  position: relative;
+}
+.middle {
+  width: 80%;
+  float:left;
+  background: #fff;
+  position: relative;
+}
+.right {
+  width: 10%;
+  float: right;
+  background: gray;
+  height: 100%;
+  position: relative;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  float: left;
+  clear: both;
+}
