@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <main>
+
+
+      <input type="text" placeholder="user name" ng-model="userFilter.name">
+      <input type="text" placeholder="movie" ng-model="userFilter.movie">
+
+
+    <div ng-controller="products">
+      <section class="people-container">
+        <div class="person" ng-repeat="user in users | filter: userFilter">
+          <br>
+          <p>name: {{user.name}} </p>
+          <p>movie: {{user.movie}}</p>
+          <p>species: {{user.species}} </p>
+        </div>
+
+
+      </section>
+
+
+    </div>
+  <div>
+
+  </div>
+
+
+
+
+
+  </main>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.js"></script>
+
+</body>
+</html>
