@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="lecture">
+<head>
+  <title>Join Rebel Alliance</title>
+
+</head>
+
+<body ng-controller="mainCtrl">
+<main>
+<input type = "text" ng-model="first_name" placeholder="first name">
+<input type = "text" ng-model="planet" placeholder="planet">
+<input type = "text" ng-model="rating" placeholder="rating">
+<button ng-click="addUser()">Join Rebel Alliance!</button>
+
+
+<section>
+  <div ng-repeat = "name in names">
+    <li>{{name.first_name}}</li>
+    <li>{{name.planet}}</li>
+    <li>{{name.rating}}</li>
+  </div>
+  <br>
+
+</section>
+
+</main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+  <script src="app.js"></script>
+  <script src="mainCtrl.js"></script>
+  <script src="mainSrvc.js"></script>
+</body>
+
+</html>
