@@ -1,13 +1,22 @@
-var app = angular.module('userProfiles'); //wow
+angular.module('userProfiles') //wow
 
-app.service('mainService', function($http) {
+.service('mainService', function($http, $q) {
 
 	  this.getUsers = function() {
-	    return $http({
+			var deferred = $q.defer();
+			//console.log(deferred);
+	    $http({
 	      method: 'GET',
 	      url: 'http://reqres.in/api/users?page=1'
-	    });
+			}).then(function(response) {
+					var parsedResponse = response.data.data
+					for(var i = 0; i < parsedResponse.length; i++) {
+	        	parsedResponse[i].first_name = 'Ralf'
+	      	}
+					deferred.resolve(parsedResponse)
+	    	})
+
+				//console.log(deferred);
+			  return deferred.promise;
 	  }
 	});
-
-});
